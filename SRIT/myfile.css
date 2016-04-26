@@ -1,0 +1,99 @@
+
+/* links */
+
+a:active {text-decoration: none;color: blue;}
+a:link {text-decoration: none;}
+a:hover{text-decoration: none;color:white;font-size: 20px;}
+/*paragraphs and headers */
+p ,h3{background-color:silver;color:  royalblue;}
+#p1 {background-color: silver;}
+#p2 {background-color: white;background-image: url("111.jpg")}
+#p2 {background-color: white;}
+div.fixed{position: absolute;}
+li.list{background-color: none}
+
+ul.ulist {background-color: none;list-style-type: square;}
+table.main{padding:10;}
+
+/* drop down */
+ul.drop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: purple;
+    text-align: center;
+    padding: none; 
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:none;
+   min-width: none;
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+.dropdown-content a {
+    color: none;
+   /* padding:   12px 16px; */
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: silver;
+}
+
+.dropdown-content a:hover {background-color: none}
+
+.show {display:block;}
+
+a.active{background-color: silver;color: #0085CA;}
+
+li.nodots{list-style-type: none;}
+
+p.pslide {text-decoration-color: none;}
+p.low{width: 800px;height: 180px;background-color: none;margin-left: 220px}
+
+form.simple{box-shadow: none;}
+
+}
+form.frm {
+    background-color: silver;
+    color: blue;
+    box-sizing: border-box;
+
+}
+/*form:hover{font-size: 30px;}; 
+
+form{
+float:left; /*to clear the floats of inner elements,usefull if you wanna add a border or background image
+width:300px;
+}
+label{
+float:left;
+width:150px;
+margin-bottom:10px; /*or whatever you want the spacing to be
+}
+input{
+float:left;
+width:150px;
+margin-bottom:10px; /*or whatever you want the spacing to be
+} */
